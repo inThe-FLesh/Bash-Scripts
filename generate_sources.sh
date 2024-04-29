@@ -2,4 +2,8 @@
 
 echo -n "Please enter a folder name: "
 read folder
-find . -type f -name "*.c" | grep $folder | sed "s/.*/'&'/"
+
+echo -n "Please enter the file extension (e.g. cpp)"
+read extension
+
+find . -type f -name "*.${extension}" | grep $folder | sed "s/.*/'&'/"
