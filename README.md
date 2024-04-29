@@ -1,5 +1,5 @@
 # Bash-Scripts
-This is a repository containing the bash scripts I use
+This is a repository containing the bash scripts I use.
 
 ## Installation
 To install just clone the repository and, either cd into the repository and run them from there, or add them to /usr/bin/ to run them from the command line.
